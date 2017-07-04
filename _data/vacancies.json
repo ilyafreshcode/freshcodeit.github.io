@@ -1,0 +1,53 @@
+{
+  "title": "Вакансии",
+  "subtitle": "Сейчас мы ищем таких IT специалистов",
+  "intro": "Работать в Freshcode интересно, комфортно и продуктивно!",
+  "first_section": {
+    "subtext": "Вакансии",
+    "card_type": [
+      {
+        "developer": "С++ developer",
+        "status": "Приостановлена",
+        "link_to": "c_developer"
+      },
+      {
+        "developer": "IT Sales manager/Менеджер по продажам IT услуг",
+        "status": "12 мая",
+        "link_to": "sales_manager"
+      },
+      {
+        "developer": "Product manager/Продакт менеджер",
+        "status": "Скоро откроется",
+        "link_to": "product_manager"
+      },
+      {
+        "developer": "Project manager/Business analyst",
+        "status": "10 мая",
+        "link_to": "project_manager"
+      },
+      {
+        "developer": "PPC manager/ Специалист по контекстной рекламе",
+        "status": "Приостановлена",
+        "link_to": "ppc_manager"
+      },
+      {
+        "developer": "SEO specialist",
+        "status": "Скоро откроется",
+        "link_to": "seo_specialist"
+      }
+    ]
+  },
+  "second_section": {
+    "subtext": "Кандидатам",
+    "name": "Елизавета Т.",
+    "position": "Project manager",
+    "text": "Мы всегда рады талантливым специалистам! В списке нет подходящей вакансии? Все равно хочешь стать частью нашей команды? Готов расти и развиваться с нами?",
+    "telephone": "+380734036422"
+  },
+  "third_section": {
+    "subtext": "Резюме",
+    "title": "Присоединяйся к нам!",
+    "subtitle": "Ищешь работу в IT? Понравилась вакансия? ",
+    "button": "Присылай свое резюме"
+  }
+}
