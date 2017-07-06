@@ -1,0 +1,37 @@
+{
+  "first_section": {
+    "subtext": "Вакансии",
+    "card_type": [
+      {
+        "developer": "С++ developer",
+        "status": "Приостановлена",
+        "link_to": "c_developer"
+      },
+      {
+        "developer": "IT Sales manager/Менеджер по продажам IT услуг",
+        "status": "12 мая",
+        "link_to": "sales_manager"
+      },
+      {
+        "developer": "Product manager/Продакт менеджер",
+        "status": "Скоро откроется",
+        "link_to": "product_manager"
+      },
+      {
+        "developer": "Project manager/Business analyst",
+        "status": "10 мая",
+        "link_to": "project_manager"
+      },
+      {
+        "developer": "PPC manager/ Специалист по контекстной рекламе",
+        "status": "Приостановлена",
+        "link_to": "ppc_manager"
+      },
+      {
+        "developer": "SEO specialist",
+        "status": "Скоро откроется",
+        "link_to": "seo_specialist"
+      }
+    ]
+  },
+}
