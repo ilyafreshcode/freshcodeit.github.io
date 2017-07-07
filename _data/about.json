@@ -70,18 +70,18 @@
     "subtitle": "Наши разработки приносят успех заказчикам по всему миру.",
     "progress": [
       {
-        "img": "/images/about/logo_outdor.svg"
+        "img": "/images/logo/total222.svg"
       },
       {
-        "img": "/images/about/logo_play_attention.svg"
+        "img": "/images/logo/KPMG_blue_logo.svg"
       },
       {
-        "img": "/images/about/logo_educadio.svg"
+        "img": "/images/logo/Eurovision_Song_Contest.svg"
       }
     ]
   },
   "six_section": {
     "title": "Хочешь к нам?",
-    "button": "Сегодня нам нужны"
+    "button": "Смотреть все вакансии"
   }
 }
