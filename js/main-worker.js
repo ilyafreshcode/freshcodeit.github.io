@@ -194,13 +194,9 @@ $(function(){
     }
 
     function showCurrentDate(){
-        var currentDate = new Date();
-        var day = currentDate.getDate();
-        var month = currentDate.getMonth() + 1;
-        var year = currentDate.getFullYear();
-        $(".status").text(day + "." + month + "." + year);
+        var d = new Date();
+        $(".status").text(("0" + d.getDate()).slice(-2) + "." + ("0"+(d.getMonth()+1)).slice(-2) + "." + d.getFullYear());
     }
-
 
     function init(){
         toggleMenuWhenResize();
