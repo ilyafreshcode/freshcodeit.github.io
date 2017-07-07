@@ -165,7 +165,7 @@
 
   .job {
     .title {
-      width: 245px;
+      width: 120px;
     }
   }
   .plus {
@@ -265,14 +265,14 @@
     }
 
     .frame {
-      margin: -72px 0 0 -18px;
+      margin: -12px 0 0 -18px;
       height: 580px;
       width: 100%;
       overflow: hidden;
 
       @include breakpointDesktop {
         height: 770px;
-        margin: -75px 0 0 -18px;
+        margin: -23px 0 0 -18px;
       }
     }
   }
