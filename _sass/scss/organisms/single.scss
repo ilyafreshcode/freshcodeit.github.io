@@ -145,21 +145,23 @@
     }
 
     hr {
+      display: block;
+      margin-top: 5px;
       width: 10px;
       height: 2px;
       border: 0;
-      margin: 0;
       background-color: $black;
 
       @include breakpointDesktop {
         width: 20px;
+        margin-top: 10px;
       }
     }
 
     .inline {
       display: flex;
-      align-items: center;
       margin: 20px 0;
+
     }
   }
 
