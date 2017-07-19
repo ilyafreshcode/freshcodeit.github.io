@@ -33,7 +33,7 @@
 }
 
 .rv-quotes{
-  margin: 0 0 -37px -45px;
+  margin: -457px 0 456px -45px;
   z-index: 1000;
   @include breakpoint($screen-default){
     float: right;
@@ -45,8 +45,8 @@
   }
 }
 .rv-quotes-2{
-  float: right;
-  margin: -245px -45px 0 0;
+  margin: -45px 0 -37px 411px;
+
   @include breakpoint($screen-default){
     float: none;
     position: absolute;

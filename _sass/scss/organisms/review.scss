@@ -13,7 +13,7 @@
   }
 
   .title-section {
-    margin-top: -2157px;
+    margin-top: -2183px;
 
     @include beginPosition(17%, 0);
 
@@ -62,7 +62,15 @@
   }
 
   .cards-review {
-    margin-top: -454px;
+    margin-top: -969px;
+
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
 
     @include breakpoint($screen-default){
       margin-top: -648px;
@@ -73,10 +81,44 @@
       box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.15);
       width: 443px;
       z-index: -1;
+      margin-top: 30px;
+
+
+      display: flex;
+      flex-direction: column;
 
       @include breakpoint($screen-default){
         width: 245px;
       }
+
+
+
+      &:nth-child(odd){
+        margin-top: 70px;
+        @include breakpoint($screen-default) {
+          margin-left: 35px;
+        }
+      }
+
+      &:nth-child(1){
+        margin-top: 30px !important;
+      }
+      &:nth-child(2){
+        margin-top: -160px;
+
+        @include breakpoint($screen-default){
+          margin-top: 90px;
+        }
+
+        img{
+          top: -60px;
+        }
+
+        .card-style{
+          margin-top: -60px;
+        }
+      }
+
     }
 
     .card-style {
@@ -190,7 +232,7 @@
     position: relative;
     margin: -150px 0 0 50%;
     width: 25%;
-    height: 1901px;
+    height: 1931px;
     z-index: -20;
     opacity: $opacity-bg;
 
@@ -250,7 +292,7 @@
     }
     display: block;
     position: relative;
-    margin: -800px 0 0 0;
+    margin-top: -800px;
     width: 50%;
     height: 530px;
     z-index: -20;

@@ -198,7 +198,15 @@ $(function(){
         $(".status").text(("0" + d.getDate()).slice(-2) + "." + ("0"+(d.getMonth()+1)).slice(-2) + "." + d.getFullYear());
     }
 
+    function getHeightOfReviews(){
+        var h = $('.cards-review').height();
+        $('.review .dot-block').css("height", (h - 800)).css("margin-top", (-h + 520));
+        $('.review .lines-block').css("height", h + 350);
+        $('.review .title-section').css("margin-top", -(h + 350) - 260);
+    }
+
     function init(){
+        getHeightOfReviews();
         toggleMenuWhenResize();
         generateSlides();
         lines();
@@ -293,16 +301,13 @@ var Animation = function(){
                 $(".review .title-section").addClass("title-animation");
             } },
             {selector: '.cards-review', offset: 50, callback: function(){
-                $(".cards-review .krasnogor").removeClass("begin-position-cards").addClass("cards-animation");
-                $(".cards-review .troian").removeClass("begin-position-cards").addClass("cards-animation");
-                $(".cards-review .rv-quotes").removeClass("begin-position-rvqclose").addClass("rv-qclose-animation");
+                $(".cards-review .card").removeClass("begin-position-cards").addClass("cards-animation");
+                $(".rv-quotes").removeClass("begin-position-rvqclose").addClass("rv-qclose-animation");
             } },
             {selector: '.cards-review', offset: 900, callback: function(){
-                $(".cards-review .logvinova").removeClass("begin-position-cards").addClass("cards-animation");
             } },
             {selector: '.cards-review', offset: 1100, callback: function(){
-                $(".cards-review .gonchar").removeClass("begin-position-cards").addClass("cards-animation");
-                $(".cards-review .rv-quotes-2").removeClass("begin-position-rvqopen").addClass("rv-qopen-animation");
+                $(".rv-quotes-2").removeClass("begin-position-rvqopen").addClass("rv-qopen-animation");
             } },
 
 
