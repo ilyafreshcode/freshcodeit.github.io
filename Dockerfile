@@ -1,6 +1,4 @@
-FROM ubuntu:14.04
+FROM ruby:2.2
 EXPOSE 4040
-RUN apt-get update
-RUN apt-get -y install ruby-full
 RUN gem install jekyll
 RUN jekyll build && jekyll serve --port 4040
