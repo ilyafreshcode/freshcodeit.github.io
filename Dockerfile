@@ -2,4 +2,5 @@ FROM ruby:2.2
 EXPOSE 4040
 WORKDIR /usr/src/app2
 COPY . /usr/src/app2
-RUN ls -lah
+RUN gem install jekyll && gem install jekyll-sitemap
+RUN jekyll build && jekyll serve --port 4040
