@@ -3,18 +3,10 @@ Site is created by [Jekyll] - simple, blog-aware static site generator.
 ## Installation
 Install: 
 - ruby 
-- imagemagick
 
 Required ruby-gems:
 - jekyll (3.2.1)
-- juicer (1.2.0)
-- uglifier (3.0.1)
-- cmdparse (2.0.6)
 - jekyll-sitemap (0.12.0)
-
-For css/js minification **install by juicer:**
-- yui-compressor
-- jslint
 
 ## Usage
 **_config.yml**  - jekyll config file
