@@ -301,14 +301,31 @@ var Animation = function(){
                 $(".review .title-section").addClass("title-animation");
             } },
             {selector: '.cards-review', offset: 50, callback: function(){
-                $(".cards-review .card").removeClass("begin-position-cards").addClass("cards-animation");
+                $(".cards-review .card:eq(0)").removeClass("begin-position-cards").addClass("cards-animation");
+                $(".cards-review .card:eq(1)").removeClass("begin-position-cards").addClass("cards-animation");
                 $(".rv-quotes").removeClass("begin-position-rvqclose").addClass("rv-qclose-animation");
             } },
-            {selector: '.cards-review', offset: 900, callback: function(){
+            {selector: '.cards-review', offset: 1000, callback: function(){
+                $(".cards-review .card:eq(2)").removeClass("begin-position-cards").addClass("cards-animation");
+                $(".cards-review .card:eq(3)").removeClass("begin-position-cards").addClass("cards-animation");
             } },
-            {selector: '.cards-review', offset: 1100, callback: function(){
-                $(".rv-quotes-2").removeClass("begin-position-rvqopen").addClass("rv-qopen-animation");
+            {selector: '.cards-review', offset: 1700, callback: function(){
+                $(".cards-review .card:eq(4)").removeClass("begin-position-cards").addClass("cards-animation");
+                $(".cards-review .card:eq(5)").removeClass("begin-position-cards").addClass("cards-animation");
             } },
+            {selector: '.cards-review', offset: 2500, callback: function(){
+                $(".cards-review .card:eq(6)").removeClass("begin-position-cards").addClass("cards-animation");
+                $(".cards-review .card:eq(7)").removeClass("begin-position-cards").addClass("cards-animation");
+            } },
+            {selector: '.cards-review', offset: 3200, callback: function(){
+                $(".cards-review .card:eq(8)").removeClass("begin-position-cards").addClass("cards-animation");
+                $(".cards-review .card:eq(9)").removeClass("begin-position-cards").addClass("cards-animation");
+            } },
+            {selector: '.cards-review', offset: 4000, callback: function(){
+                $(".cards-review .card:eq(10)").removeClass("begin-position-cards").addClass("cards-animation");
+                $(".cards-review .card:eq(11)").removeClass("begin-position-cards").addClass("cards-animation");
+            } },
+
 
 
             {selector: '.contacts', offset: 50, callback: function(){
