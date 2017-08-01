@@ -15,7 +15,7 @@ Required ruby-gems:
 
 **jekyll serve** - command that run jekyll in watch mode (localhost:4000)
 
-*For optimisation build/re-build process we store information about changing all pic/js/css file in _assets-cache/cache.yml.
- All plugins store in _plugins folder. Some of them can store default setting in config files _config.yml, CssMinify.yml, JsMinify.yml*
+
+ All plugins store in _plugins folder. Some of them can store default setting in config files _config.yml
 
 [Jekyll]: <https://jekyllrb.com>
