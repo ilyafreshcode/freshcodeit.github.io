@@ -218,11 +218,18 @@ $(function(){
 
     function loaderOnClick(){
         if(!wasLoadeed) {
-            var frame = $("#google-frame");
-            frame.attr("src", "https://script.google.com/macros/s/AKfycbyuqz2QgcRWckA8H71OOn588YSsEY9u8ADudcIY9Ee7BGiAXHoE/exec");
-            document.getElementById('google-frame').onload = function () {
-                $(".loader").hide();
-            };
+            $('<iframe>', {
+                src: 'https://script.google.com/macros/s/AKfycbyuqz2QgcRWckA8H71OOn588YSsEY9u8ADudcIY9Ee7BGiAXHoE/exec',
+                id:  'google-frame',
+                class: 'frame',
+                frameborder: 0,
+                scrolling: 'yes'
+            }).appendTo('.modal-frame').ready(function(){
+                document.getElementById('google-frame').onload = function () {
+                    $(".loader").hide();
+                };
+            });
+
         }
     }
 
