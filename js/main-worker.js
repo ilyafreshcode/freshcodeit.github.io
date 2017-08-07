@@ -141,7 +141,6 @@ $(function(){
     }
 
     function hideOpenNavOnScroll(){
-        loaderOnClick();
         if(isMobile) {
             toggleMenuInput.prop('checked', false);
             menu.hide();
@@ -229,7 +228,7 @@ $(function(){
                     $(".loader").hide();
                 };
             });
-
+            wasLoadeed = true;
         }
     }
 
